@@ -1,13 +1,13 @@
-#include <ипоток>
-использование пространства имен std;
+#include <iostream>
+using namespace std;
 
 int main()
 {
 	int n = 0, o, p;
 	cin >> n;
- если (n == 1)
+	if (n == 1)
 		cout << 0;
- если (n > 1)
+	if (n > 1)
 		cout << 2;	
 
 }
